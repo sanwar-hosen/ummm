@@ -1,7 +1,4 @@
 from os import path as ospath, makedirs
-from pymongo import MongoClient
-from pymongo.errors import PyMongoError
-
 from bot import DB_URI, user_data, rss_dict, botname, LOGGER
 
 class DbManger:
